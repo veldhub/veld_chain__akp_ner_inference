@@ -4,3 +4,6 @@
 [submodule "veld_data_6_apis_ner_models"]
 	path = veld_data_6_apis_ner_models
 	url = https://gitlab.oeaw.ac.at/acdh-ch/nlp/veld_data_6_apis_ner_models.git
+[submodule "veld_data_7_akp_ner_linkedcat"]
+	path = veld_data_7_akp_ner_linkedcat
+	url = git@github.com:acdh-oeaw/veld_data_7_akp_ner_linkedcat.git

@@ -8,4 +8,5 @@ services:
       service: veld
     volumes:
       - ./veld_data_6_apis_ner_models/models/:/veld/input/
+      - ./veld_data_7_akp_ner_linkedcat/:/veld/output/
  
