@@ -1,0 +1,6 @@
+[submodule "veld_executable_10_akp_ner"]
+	path = veld_executable_10_akp_ner
+	url = git@github.com:steffres/veld_executable_10_akp_ner.git
+[submodule "veld_data_6_apis_ner_models"]
+	path = veld_data_6_apis_ner_models
+	url = https://gitlab.oeaw.ac.at/acdh-ch/nlp/veld_data_6_apis_ner_models.git
