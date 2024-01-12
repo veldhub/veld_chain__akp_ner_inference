@@ -9,4 +9,13 @@ services:
     volumes:
       - ./veld_data_6_apis_ner_models/models/:/veld/input/
       - ./veld_data_7_akp_ner_linkedcat/:/veld/output/
- 
+    networks:
+      - exp_1_prefect_network
+    environment:
+      - PREFECT_API_URL=http://prefect_server:4200/api
+      - DEPLOYMENT_NAME=veld_chain_9_akp_ner
+
+networks:
+  exp_1_prefect_network:
+    external: true
+
