@@ -4,7 +4,7 @@ x-veld:
 services:
   veld:
     extends:
-      file: ./veld_executable_10_akp_ner/veld.yaml
+      file: ./veld_code_10_akp_ner/veld.yaml
       service: veld
     volumes:
       - ./veld_data_6_apis_ner_models/models/:/veld/input/
