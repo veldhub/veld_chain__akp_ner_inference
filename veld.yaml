@@ -14,10 +14,9 @@ services:
       file: ./veld_code_10_akp_ner/veld.yaml
       service: veld
     volumes:
-      - ./veld_data_6_apis_ner_models/models/:/veld/input/
+      - ./veld_data_6_apis_ner_models/models/m3/model/model-best/:/veld/input/
       - ./veld_data_7_akp_ner_linkedcat/:/veld/output/
     environment:
-      input_model: "/veld/input/m3/model/model-best/"
-      input_solr_core_url: "http://linkedcat-solr.acdh-cluster-2.arz.oeaw.ac.at/solr/linkedcat2"
-      output_csv_file: "/veld/output/linkedcat2.csv"
+      solr_core_url: "http://linkedcat-solr.acdh-cluster-2.arz.oeaw.ac.at/solr/linkedcat2"
+      out_csv_file: "linkedcat2.csv"
  
