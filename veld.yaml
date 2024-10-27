@@ -1,12 +1,11 @@
 x-veld:
   chain:
-    about:
-      description: "This repo uses self-trained spaCy NER models on the linkedcat dataset to extract
-        entities, which are stored in csv files."
-      topics:
-        - "NLP"
-        - "Machine learning"
-        - "Named entity recognition"
+    description: "This repo uses self-trained spaCy NER models on the linkedcat dataset to extract
+      entities, which are stored in csv files."
+    topics:
+      - "NLP"
+      - "Machine learning"
+      - "Named entity recognition"
 
 services:
   veld:
