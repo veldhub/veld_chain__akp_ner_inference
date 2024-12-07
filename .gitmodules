@@ -1,0 +1,6 @@
+[submodule "code/veld_code__akp_ner"]
+	path = code/veld_code__akp_ner
+	url = https://github.com/veldhub/veld_code__akp_ner.git
+[submodule "data/veld_data__akp_ner_linkedcat"]
+	path = data/veld_data__akp_ner_linkedcat
+	url = https://github.com/veldhub/veld_data__akp_ner_linkedcat.git
