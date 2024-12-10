@@ -8,13 +8,13 @@ x-veld:
       - "Named entity recognition"
 
 services:
-  veld:
+  veld_infer:
     extends:
-      file: ./veld_code_10_akp_ner/veld.yaml
-      service: veld
+      file: ./code/veld_code__akp_ner/veld_infer.yaml
+      service: veld_infer
     volumes:
-      - ./veld_data_6_apis_ner_models/models/m3/model/model-best/:/veld/input/
-      - ./veld_data_7_akp_ner_linkedcat/:/veld/output/
+      - ./data/veld_data__apis_ner_models/m_test/:/veld/input/
+      - ./data/veld_data__akp_ner_linkedcat/linkedcat2/:/veld/output/
     environment:
       solr_core_url: "http://linkedcat-solr.acdh-cluster-2.arz.oeaw.ac.at/solr/linkedcat2"
       out_csv_file: "linkedcat2.csv"
