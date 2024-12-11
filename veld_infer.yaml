@@ -10,10 +10,10 @@ x-veld:
 services:
   veld_infer:
     extends:
-      file: ./code/veld_code__akp_ner/veld_infer.yaml
+      file: ./code/veld_code__akp_ner_inference/veld_infer.yaml
       service: veld_infer
     volumes:
-      - ./data/veld_data__apis_ner_models/m_test/:/veld/input/
+      - ./data/veld_data__apis_spacy_ner_models/m1/model-best/:/veld/input/
       - ./data/veld_data__akp_ner_linkedcat/linkedcat2/:/veld/output/
     environment:
       solr_core_url: "http://linkedcat-solr.acdh-cluster-2.arz.oeaw.ac.at/solr/linkedcat2"
