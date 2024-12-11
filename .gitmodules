@@ -4,3 +4,6 @@
 [submodule "code/veld_code__akp_ner_inference"]
 	path = code/veld_code__akp_ner_inference
 	url = https://github.com/veldhub/veld_code__akp_ner_inference.git
+[submodule "data/veld_data__apis_spacy_ner_models"]
+	path = data/veld_data__apis_spacy_ner_models
+	url = https://github.com/veldhub/veld_data__apis_spacy_ner_models.git
