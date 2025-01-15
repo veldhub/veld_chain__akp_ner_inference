@@ -21,6 +21,8 @@ git clone --recurse-submodules https://github.com/veldhub/veld_chain__akp_ner_in
 
 ## how to reproduce
 
+The following chain velds were used. Open the respective veld yaml file for more information.
+
 **[./veld_infer.yaml](./veld_infer.yaml)** 
 
 This will launch a jupyter notebook at http://localhost:8888/ where the inference can be executed.
