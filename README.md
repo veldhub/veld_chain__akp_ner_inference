@@ -1,4 +1,4 @@
-# veld_chain__akp_ner_inference/
+# veld_chain__akp_ner_inference
 
 This repo contains [chain velds](https://zenodo.org/records/13322913) encapsulating NER inference
 chains.
