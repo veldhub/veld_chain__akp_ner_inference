@@ -14,6 +14,11 @@ are reused here for the
 - docker compose (note: older docker compose versions require running `docker-compose` instead of 
   `docker compose`)
 
+Clone this repo with all its submodules (important as they may contain necessary data and code)
+```
+git clone --recurse-submodules https://github.com/veldhub/veld_chain__akp_ner_inference.git
+```
+
 ## how to reproduce
 
 **[./veld_infer.yaml](./veld_infer.yaml)** 
