@@ -1,7 +1,5 @@
 # veld_chain__akp_ner_inference/
 
-## Applied NER inference on linkedcat data for PFP
-
 This repo contains [chain velds](https://zenodo.org/records/13322913) encapsulating NER inference
 chains.
 
