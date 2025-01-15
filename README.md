@@ -3,7 +3,7 @@
 This repo contains [chain velds](https://zenodo.org/records/13322913) encapsulating NER inference
 chains.
 
-In the context of the intavia project, spaCy NER models were trained. These are reused here for the
+In the context of the [intavia project](https://intavia.eu/), spaCy NER models were trained. These are reused here for the
 PFP project, and applied on linkedcat data.
 
 ## requirements
