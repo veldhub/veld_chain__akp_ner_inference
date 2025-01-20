@@ -1,4 +1,5 @@
-# veld_chain__akp_ner_inference
+# ![veld chain](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png)
+ veld_chain__akp_ner_inference
 
 This repo contains [chain velds](https://zenodo.org/records/13322913) encapsulating NER inference
 chains.
